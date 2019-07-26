@@ -43,7 +43,7 @@ var cup_name='';
 function cupClick(i){
 
     cup_name=cup[i].className.split(" ")[1];
-    var img_name="/svgfile/"+cup_name+".svg";
+    var img_name="svgfile/"+cup_name+".svg";
     shake_smoothie_cup_img.src=img_name;
     final_smoothie_cup_img.src=img_name;
     for(var j=0;j<smoothie_cup_img.length;j++){
