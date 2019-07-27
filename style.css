@@ -463,6 +463,9 @@ button.next {
     background: rgba(255, 255, 255, 0.644);
     color:#F55260;
     font-size: 15px;
+
+    position: relative;
+    z-index: 8;
 }
 
 .next_div{
@@ -528,7 +531,7 @@ button.next {
 
     position: absolute;
     left: 0px;
-    z-index: 9;
+    z-index: 6;
 
 }
 .smoothie_sparkle{
@@ -638,7 +641,7 @@ button.next {
 
     position: relative;
     top:0px;
-    z-index:7;
+    z-index:9;
 }
 
 .recipes{
@@ -647,6 +650,7 @@ button.next {
     padding:0px 40px 0px 70px;
 
     color:rgb(255, 223, 223);
+    background:#F55260;
 
     font-size: 17px;
     text-align: justify;
