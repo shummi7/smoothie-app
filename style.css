@@ -234,7 +234,7 @@ body p{
 
 .smoothie_scroll div{
     width:250px;
-    height:250px;
+    /* height:250px; */
     margin:0px 10px 20px 10px;
 
     cursor: pointer;
@@ -242,7 +242,7 @@ body p{
 .smoothie_scroll div:hover{
     border-radius: 20px;
     border:2px dashed rgb(248, 125, 135);
-}
+} 
 
 .smoothie_scroll p{
     font-size: 17px;
